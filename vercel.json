@@ -10,15 +10,15 @@
             "dest": "/api/registration.php"
         },
         {
-            "src": "/login",
+            "src": "/",
             "dest": "/api/login.php"
         },
         {
-            "src": "/index",
+            "src": "/",
             "dest": "/api/index.php"
         },
         {
-            "src": "/logout",
+            "src": "/",
             "dest": "/api/logout.php"
         }
     ]
