@@ -1,0 +1,25 @@
+{
+    "functions": {
+        "api/**/*.php": {
+            "runtime": " [email protected] "
+        }
+    },
+    "routes": [
+        {
+            "src": "/",
+            "dest": "/api/registration.php"
+        },
+        {
+            "src": "/login",
+            "dest": "/api/login.php"
+        },
+        {
+            "src": "/index",
+            "dest": "/api/index.php"
+        },
+        {
+            "src": "/logout",
+            "dest": "/api/logout.php"
+        }
+    ]
+}
